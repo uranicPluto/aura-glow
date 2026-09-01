@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FDF4DC"/>
+      <stop offset="35%" stop-color="#E5C158"/>
+      <stop offset="70%" stop-color="#C59B27"/>
+      <stop offset="100%" stop-color="#8C6314"/>
+    </linearGradient>
+    <linearGradient id="gold-bright" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="50%" stop-color="#FFF3C4"/>
+      <stop offset="100%" stop-color="#E5C158"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="50%" cy="58%" r="45%">
+      <stop offset="0%" stop-color="#E5C158" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#E5C158" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background rounded badge -->
+  <rect width="32" height="32" rx="7" fill="#1C1917"/>
+  <rect width="30" height="30" x="1" y="1" rx="6" fill="none" stroke="#C59B27" stroke-width="0.75" stroke-opacity="0.5"/>
+
+  <!-- Halo glow -->
+  <circle cx="16" cy="17" r="9" fill="url(#halo)"/>
+
+  <!-- Outer Luxury Candle Flame -->
+  <path d="M16 5 C16.2 5.2, 22 11.8, 22 17.5 C22 21.2 19.3 24 16 24 C12.7 24 10 21.2 10 17.5 C10 11.8, 15.8 5.2, 16 5 Z" fill="url(#gold)"/>
+
+  <!-- Inner Candle Light Core -->
+  <path d="M16 10.5 C16.1 10.7, 19.2 14.8, 19.2 18 C19.2 20.2 17.8 22 16 22 C14.2 22 12.8 20.2 12.8 18 C12.8 14.8, 15.9 10.7, 16 10.5 Z" fill="url(#gold-bright)"/>
+
+  <!-- Sparkle Crest -->
+  <circle cx="16" cy="3.8" r="0.9" fill="#FFF8E7"/>
+</svg>
